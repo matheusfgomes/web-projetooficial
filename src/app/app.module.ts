@@ -4,14 +4,14 @@ import { FormsModule } from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
-import { AlunoComponent } from './alunos/aluno.component';
+import { AlunosComponent } from './alunos/aluno.component';
 import { AlunoDetailComponent} from './aluno-details/aluno-detail.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AlunoComponent,
+    AlunosComponent,
     AlunoDetailComponent
   ],
 

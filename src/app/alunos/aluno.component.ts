@@ -16,8 +16,11 @@ export class AlunosComponent implements OnInit{
   constructor(){
 
   }
-
   ngOnInit(){
+    
+  }
+
+  onSelect(aluno: Aluno): void{
     this.selectedAluno = aluno;
   }
 

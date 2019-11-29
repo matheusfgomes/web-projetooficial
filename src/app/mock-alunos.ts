@@ -1,7 +1,7 @@
 import { Aluno } from './aluno';
 
 export const ALUNOS: Aluno[] = [
-  {matricula: 10001, nome: 'Zenistu tetsu', curso:'Administração'},
+  {matricula: 101, nome: 'Zenistu tetsu', curso:'Administração'},
   {matricula: 666, nome: 'Akuma Oni', curso: 'Letras'},
   {matricula: 325, nome: 'Nokufu Rado', curso: 'Arquitetura'},
   {matricula: 999, nome: 'Kibetor Tasso' , curso: 'Engenharia Civil'},

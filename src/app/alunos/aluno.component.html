@@ -13,7 +13,7 @@
 
 <div *ngIf="selectedAluno">
 
-  <h2>{{selectedAluno.nome | uppercase}} Details</h2>
+  <h2>{{selectedAluno.nome || uppercase}} Details</h2>
   <div><span>Matricula: </span> {{selectedAluno.matricula}}</div>
   <div><span> Curso: </span> {{selectedAluno.curso}}</div>
   <div>
